@@ -141,3 +141,27 @@
     }
     
 }
+
+/* ESERCIZIO 12  */
+.ex-12-button:hover .ex-12-top-white {
+    animation-name: esercizio_12-top;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation-name: esercizio_12-bottom;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes esercizio_12-top {
+    50% {
+        left: 69.5%;
+    }
+}
+
+@keyframes esercizio_12-bottom {
+    50% {
+        right: 69%;
+    }
+}
